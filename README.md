@@ -12,30 +12,43 @@
 
 ## 1. Introduction
 
-[To be completed.]
+This proposal sets up our ethical review of ReMeal, a Malaysian app that sells surplus food from local vendors at reduced prices. ReMeal has a worthwhile aim: less food waste and cheaper meals. We ask whether an app with a good purpose can still treat its users unfairly through its design and policies. Section 2 explains our choice of system, and Section 3 describes how we are investigating it. Section 4 reviews related research. Section 5 reports four issues: privacy, refunds and cancellations, food descriptions, and allergen information. Section 6 proposes our ethical framework, and Section 8 sets out our plan for Part 2.
 
 ## 2. System Overview and Selection Rationale
 
 ### 2.1 What ReMeal Does
 
-ReMeal is a Malaysian app developed by ReMeal Sdn. Bhd. It connects cafés, bakeries, supermarkets, and restaurants with customers who want to buy surplus food at reduced prices. Users can pay through the app and, depending on the available option, collect their order, dine in, or use delivery. In December 2024, *Vulcan Post* reported that ReMeal had 16 active stores and around 1,800 user sign-ups. At that time, orders were pickup-only. ReMeal’s current website also lists dine-in and delivery options, which may vary by vendor.
+ReMeal is a Malaysian app developed by ReMeal Sdn. Bhd. It connects cafés, bakeries, supermarkets, and restaurants with customers who want to buy surplus food at reduced prices. Users can pay through the app and, depending on the available option, collect their order, dine in, or use delivery. In December 2024, *Vulcan Post* reported that ReMeal had 16 active stores and 1,800 user sign-ups, and described a model in which users collected food from vendors rather than receiving deliveries (Kasinathan, 2024). ReMeal’s current website also lists dine-in and delivery options, which may vary by vendor (ReMeal, n.d.-a).
 
 ### 2.2 Why We Chose ReMeal
 
-ReMeal is a real app that is available to download, and users can investigate its features and policies. It is a small Malaysian platform rather than a global service. Our preliminary search found limited research focused specifically on ReMeal’s ethical issues. A NUS case study mentions ReMeal as part of a broader discussion of surplus-food platforms, but it is not an ethical review of the app.
+ReMeal is a real app that is available to download, and users can investigate its features and policies. It is a small Malaysian platform rather than a global service. Our preliminary searches found press coverage and ReMeal’s own pages, but no academic studies of the app.
 
 ReMeal also has ethically relevant features. Its App Store privacy information, which is provided by the developer, lists data such as location and purchase history as information the app may collect. The app handles payments and refunds, and users rely on vendor listings to understand what food they are buying.
 
-We chose ReMeal because it aims to reduce food waste and make food more affordable. This raised a question we found interesting: can a well-intentioned app still treat users unfairly through the way it is designed?
+We chose ReMeal because it aims to reduce food waste and make food more affordable. This raised a question we found interesting: can a well-intentioned app still treat users unfairly through the way it is designed? Surplus food also differs from ordinary food delivery. What is available depends on what vendors have left, so customers rely heavily on listings to know what they are buying. Responsibility is shared between ReMeal and independent vendors, which may make it unclear who answers for a refund, a misleading description or a missing allergen warning. The food-app research we found mainly concerns delivery platforms (e.g. Al Rezan et al., 2025), so a small surplus-food app lets us test whether their known problems appear in a different business model.
 
 ## 3. Investigation Method
 
-### 3.1 How We Examined the App and Its Policies
+### 3.1 Investigation Plan
+
+Each issue has one owner and uses at least one first-hand method alongside reading the policies:
+
+| Issue | Methods |
+|---|---|
+| Privacy and data | Privacy Notice and Terms; Android permission audit; app-store data-safety labels |
+| Refunds and cancellations | Terms on order acceptance, cancellation and refunds; walkthrough of the order flow up to payment |
+| Food descriptions and photos | Structured review of a sample of listings against a fixed checklist (photo, contents, quantity, price, collection time, vendor) |
+| Allergens and food safety | Terms on allergens; the same listing sample checked for ingredient and allergen details |
+
+Across all issues, we check the walkthrough for dark patterns and code public app-store reviews by theme. We follow three evidence rules. First, every screenshot is dated and numbered in the Appendix. Second, we treat developer-provided disclosures as claims, not verified facts. Third, we do not call a listing inaccurate unless we can verify it.
+
+### 3.2 How We Examined the App and Its Policies
 
 For the privacy review, we read ReMeal’s Privacy Notice and Terms and checked the privacy information on the app-store listings. On 2 November 2026, we walked through the Android app’s sign-in screen, location setup, location permission prompt, and notification permission prompt. We saved screenshots of the app screens and relevant policy sections for the Appendix (Figures A1–A13).
 
 
-### 3.2 Evidence Collected and Limitations
+### 3.3 Evidence Collected and Limitations
 
 Our screenshots show what the app and policies displayed on 2 November 2026. The App Store and Google Play privacy information is supplied by the developer, so it is not an independent technical audit. We did not inspect network traffic, ReMeal’s servers, or how vendors and other service providers handle data.
 
@@ -105,7 +118,9 @@ Clauses **2.07** and **2.09** guide engineers who identify significant social co
 
 ### 6.2 Applying Ethical Theories
 
-Under **utilitarianism**, we weigh the benefits of location data—such as showing nearby vendors—against possible harms such as unwanted sharing or exposure of personal information. The observed default-location path let us reach the home screen without answering the location prompt, but we did not test whether it supports browsing or ordering. The map option is not yet evidence of a less intrusive alternative because it still triggered the location prompt.
+We propose two theories because ReMeal’s issues take two forms. **Utilitarianism** (Mill, 1863) suits the trade-offs. ReMeal produces real benefits: less waste, cheaper food and extra income for vendors. A fair judgement must weigh these against harms to individual users, such as money lost on a refused refund or a reaction to an undisclosed allergen. **Kantian deontology** (Kant, 1785/1998) suits the issues of information and consent. It asks whether users can make informed choices about their data, their money and what they eat. On this view, misleading or withholding information is wrong even when the app does more good than harm overall. This stops us from excusing a problem because the cause is worthy.
+
+For privacy, under **utilitarianism**, we weigh the benefits of location data—such as showing nearby vendors—against possible harms such as unwanted sharing or exposure of personal information. The observed default-location path let us reach the home screen without answering the location prompt, but we did not test whether it supports browsing or ordering. The map option is not yet evidence of a less intrusive alternative because it still triggered the location prompt.
 
 Under **Kantian deontology**, users should be treated as people who can make informed choices, not just as a means to improve the service. ReMeal should explain clearly whether it needs a location, device-location permission, or both, and what users can do if they decline permission. Our screenshots show some choice, but do not establish what users can do at checkout or how optional data uses are controlled.
 
@@ -113,14 +128,24 @@ Under **Kantian deontology**, users should be treated as people who can make inf
 
 The Code sets a general duty to respect privacy, but it does not specify which data an app needs or whether “providing a location” must mean granting device-location permission. It also does not settle how to balance privacy against convenience or fraud prevention. Those questions need evidence about ReMeal’s actual data flows and ethical judgement about the trade-offs. Decisions about data collection may sit with product owners or management; the Code guides engineers to document and raise concerns, but does not itself settle the company’s policy.
 
+We expect a similar gap for refunds and allergen information. Vendors, not ReMeal’s engineers, prepare the food and may supply much of each listing. The Code addresses engineers and their software, so it says little about how responsibility should be shared between a platform and its vendors. We will test this expectation in Sections 5.2–5.4.
+
 
 ## 7. Conclusion
 
-[To be completed.]
+<!-- Coordinator: update once Sections 5.2–5.4 are written. -->
+ReMeal is a small, real and little-studied app whose good aims make its ethical issues worth examining. Our first-hand evidence so far concerns privacy. Users can reach the home screen without granting location access, but the Terms and the app explain location in different ways, and the Privacy Notice allows wide sharing. We have not found evidence of misuse. Part 2 will test whether ReMeal’s design gives users the information and control they need.
 
 ## 8. Plan for Part 2
 
-In Part 2, we will examine more vendors and listings, compare ReMeal’s policies with Malaysia’s Personal Data Protection Act 2010 as amended, apply both ethical theories to each issue, and propose practical recommendations for the developers.
+1. **Close the gaps in our evidence.** Test whether guest users can order. Explicitly deny location access and check whether browsing and checkout still work. Repeat the listing review on different days and at different times.
+2. **Extend our methods.** Code a larger sample of app-store reviews for complaints about refunds, listings and allergens. Ask ReMeal directly how data is shared and how refund disputes are handled.
+3. **Compare against the law.** Compare ReMeal’s policies with Malaysia’s Personal Data Protection Act 2010 (as amended) and the relevant consumer-protection and food-labelling rules.
+4. **Complete the ethical analysis.** Apply both theories to every issue and test where the SE Code is insufficient.
+5. **Recommend changes.** Propose practical recommendations for ReMeal’s developers.
+6. **Respond to feedback** from Part 1.
+
+We will also avoid harming vendors through our own testing. We will not place orders and then cancel them only to observe the refund process, because this could cost vendors food or sales.
 
 ## References
 
@@ -129,7 +154,10 @@ In Part 2, we will examine more vendors and listings, compare ReMeal’s policie
 - Apple App Store. (n.d.). *ReMeal – Rescue Surplus Food*. [App Store listing](https://apps.apple.com/my/app/remeal-rescue-surplus-food/id6499340832)
 - Ebrahimi, F., Tushev, M., & Mahmoud, A. (2021). Mobile app privacy in software engineering research: A systematic mapping study. *Information and Software Technology, 133*, 106466. https://doi.org/10.1016/j.infsof.2020.106466
 - IEEE-CS/ACM Joint Task Force. (1999). *Software Engineering Code of Ethics and Professional Practice*. https://www.computer.org/education/code-of-ethics
+- Kant, I. (1998). *Groundwork of the metaphysics of morals* (M. Gregor, Trans.). Cambridge University Press. (Original work published 1785)
+- Kasinathan, S. (2024, December 2). Learning from “failed” biz models, these M’sians are tackling a persistent F&B pain point. *Vulcan Post*. https://vulcanpost.com/876339/remeal-malaysia-startup-food-surplus-app-reduce-waste
 - Keßler, C., & McKenzie, G. (2018). A geoprivacy manifesto. *Transactions in GIS, 22*(1), 3–19. https://doi.org/10.1111/tgis.12305
+- Mill, J. S. (1863). *Utilitarianism*. Parker, Son, and Bourn.
 - Nouwens, M., Liccardi, I., Veale, M., Karger, D., & Kagal, L. (2020). Dark patterns after the GDPR: Scraping consent pop-ups and demonstrating their influence. In *Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems*. ACM. https://doi.org/10.1145/3313831.3376321
 - Obar, J. A., & Oeldorf-Hirsch, A. (2020). The biggest lie on the internet: Ignoring the privacy policies and terms of service policies of social networking services. *Information, Communication & Society, 23*(1), 128–147. https://doi.org/10.1080/1369118X.2018.1486870
 - ReMeal. (n.d.-a). *ReMeal*. https://remeal.app/
