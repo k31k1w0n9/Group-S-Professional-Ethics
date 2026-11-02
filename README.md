@@ -5,7 +5,7 @@
 | Name | Student ID |
 |---|---:|
 | Wong Chuek Kei | 20602511 |
-| Chai Chok Yuen | 20620830 |
+| Chai Chok Yuen | 20720830 |
 | Tham Wing Lok | 20611657 |
 | Moiz Israr Malik | 20705922 |
 | Xinzhu Yang | 20700664 |
