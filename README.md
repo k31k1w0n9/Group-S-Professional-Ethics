@@ -125,7 +125,16 @@ Google Play’s developer label reports collection of personal information and d
 
 ### 5.2 Refunds and Cancellations
 
-[To be completed.]
+One concern with ReMeal is how its cancellation policy affects customers. According to Clauses 5.7 and 5.8 of its Terms & Conditions, customers can cancel an order and receive a refund only if the vendor has not accepted it yet. They must contact ReMeal through its in-app support chat to request cancellation. Once the vendor accepts the order, customers who choose to cancel are no longer entitled to a refund, even a partial one. Clause 5.2 also states that vendors are not required to provide refunds or replacements if they cannot reasonably follow a customer's special instructions (ReMeal, 2024b).
+
+However, this doesn't mean refunds are unavailable in every situation. ReMeal's seller documentation explains that full refunds are possible for cancelled orders, while partial refunds can be issued when part of an order cannot be fulfilled. It also describes how refunds for missing items can be processed after an order has been completed, although these must be handled by ReMeal's team (ReMeal, n.d.-d).
+
+What makes this worth investigating is whether customers clearly understand when they lose the option to cancel. The seller guide lists order statuses such as Pending, Open, Collected and Cancelled, but does not separately mention an Accepted status (ReMeal, n.d.-c). Since vendor acceptance determines refund eligibility, it's worth checking whether this is clearly communicated to customers in the app.
+
+The policy itself isn't necessarily unfair. Vendors dealing with surplus food could lose money or waste food if customers cancel after their orders have been prepared. However, customers should also know what they are agreeing to before paying. This relates to Clauses 1.06 and 3.01 of the ACM/IEEE-CS Software Engineering Code of Ethics, particularly regarding honest communication and making important trade-offs clear to users (IEEE-CS/ACM Joint Task Force, 1999).
+
+Our investigation so far is based on ReMeal's published policies and seller documentation. We haven't tested an actual cancellation or refund. For Part 2, we should check whether the refund policy is clearly shown during checkout, how vendor acceptance appears in the customer app, and how customers can report missing or incorrect orders. Until then, we cannot conclude that the app is misleading customers.
+
 
 ### 5.3 Food Descriptions and Photos
 
@@ -195,6 +204,9 @@ We will also avoid harming vendors through our own testing. We will not place or
 - ReMeal. (n.d.-b). *ReMeal – Rescue Surplus Food* [Google Play listing]. https://play.google.com/store/apps/details?id=app.remeal.user
 - ReMeal. (2024a). *Privacy Notice*. Last updated 9 June 2024. https://remeal.app/privacy-policy
 - ReMeal. (2024b). *Terms and Conditions*. Last updated 21 May 2024. https://remeal.app/terms-and-conditions
+- ReMeal. (n.d.-c). *Making your first sale*. https://remeal.app/guides/making-your-first-sale
+- ReMeal. (n.d.-d). *Refunds and payouts*. https://remeal.app/guides/refunds-and-payouts
+
 
 ## Appendix: Privacy Evidence
 
