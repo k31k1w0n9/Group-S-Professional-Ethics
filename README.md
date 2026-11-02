@@ -129,12 +129,13 @@ One concern with ReMeal is how its cancellation policy affects customers. Accord
 
 However, this doesn't mean refunds are unavailable in every situation. ReMeal's seller documentation explains that full refunds are possible for cancelled orders, while partial refunds can be issued when part of an order cannot be fulfilled. It also describes how refunds for missing items can be processed after an order has been completed, although these must be handled by ReMeal's team (ReMeal, n.d.-d).
 
+The Terms also set out rules for collecting orders. Under Clause 7.2.1, vendors are only required to hold an order for up to 20 minutes after the scheduled collection time. Clause 7.2.2 states that customers are responsible for checking their food when collecting it and reporting any problems before leaving. If an unreasonable delay is caused by the customer, they may lose their right to a refund or replacement. For eligible refunds, Clause 5.8 says the money is returned through the original payment method, although ReMeal may request supporting documents before processing it (ReMeal, 2024b).
+
 What makes this worth investigating is whether customers clearly understand when they lose the option to cancel. The seller guide lists order statuses such as Pending, Open, Collected and Cancelled, but does not separately mention an Accepted status (ReMeal, n.d.-c). Since vendor acceptance determines refund eligibility, it's worth checking whether this is clearly communicated to customers in the app.
 
 The policy itself isn't necessarily unfair. Vendors dealing with surplus food could lose money or waste food if customers cancel after their orders have been prepared. However, customers should also know what they are agreeing to before paying. This relates to Clauses 1.06 and 3.01 of the ACM/IEEE-CS Software Engineering Code of Ethics, particularly regarding honest communication and making important trade-offs clear to users (IEEE-CS/ACM Joint Task Force, 1999).
 
 Our investigation so far is based on ReMeal's published policies and seller documentation. We haven't tested an actual cancellation or refund. For Part 2, we should check whether the refund policy is clearly shown during checkout, how vendor acceptance appears in the customer app, and how customers can report missing or incorrect orders. Until then, we cannot conclude that the app is misleading customers.
-
 
 ### 5.3 Food Descriptions and Photos
 
