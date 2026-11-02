@@ -78,6 +78,10 @@ On photos, Siali et al. (2024) draw on earlier food-delivery studies that treat 
 
 To see what this means in practice, we reviewed listings from two stores in the ReMeal mobile app on 1 September 2026: Dorsett Hartamas Kuala Lumpur (https://remeal.app/stores/dorsett-hartamas-kuala-lumpur) and Krem Tarik, Kota Damansara (https://remeal.app/stores/krem-tarik-kota-damansara). We took screenshots of the store pages and of two listings from each store. For each listing we recorded which details were given: contents, ingredients, price, availability, collection rules and allergen information. We also looked at what the photos show.
 
+Food allergies can affect more than the digestive system, and severe reactions may be life-threatening (Valenta et al., 2015). Their review provides a medical basis for why customers need reliable information about ingredients and allergens when choosing food. However, it focuses on the nature and mechanisms of food allergies rather than online food ordering.
+
+Research in Malaysia offers a related perspective on food-service practices. Tan et al. (2023) surveyed restaurant managers and servers about their food-allergy knowledge, attitudes, practices and training. They found that participants’ food-allergy knowledge was low compared with similar studies conducted in Western contexts, and that managers were generally more aware of allergy-related practices and training needs than servers. The study highlights why staff knowledge and communication may matter when customers ask about allergens.
+
 **Table 1. Details given in the listings reviewed**
 
 | Listing | Details given | Not stated in the listing |
@@ -129,7 +133,12 @@ Google Play’s developer label reports collection of personal information and d
 
 ### 5.4 Allergen and Food Safety Information
 
-[To be completed.]
+ReMeal’s Terms & Conditions state that the platform is not required to provide ingredient or allergen information and does not guarantee that vendors’ goods are allergen-free. Customers with allergies or dietary requirements are advised to contact the vendor before ordering (ReMeal, 2024b, § 5.3; Appendix, Fig. A10). Section 9.3 also says that ReMeal is not liable for vendors’ or customers’ actions or omissions in providing the goods, and does not guarantee that vendor listings are accurate or complete (ReMeal, 2024b, § 9.3; Appendix, Fig. A14).
+
+These terms raise concerns about customer safety, informed choice and responsibility. Food-allergy reactions can be severe and, in some cases, life-threatening (Valenta et al., 2015). In our walkthrough, some vendor listings included allergen information, while others did not. We also found no clear, consistent format for presenting it. This could make it harder for customers with allergies to identify suitable food before ordering.
+
+ReMeal advises customers to contact vendors to check allergen information. However, requests may be misunderstood, and food prepared to meet a customer’s needs could still be exposed to an allergen through cross-contact. Research on Malaysian restaurants has found gaps in food-allergy knowledge and staff training (Tan et al., 2023), which makes clear communication and safe food handling important. The Terms leave open questions about who is responsible for confirming allergen information and what happens if that information is wrong.
+
 
 ## 6. Ethical Analysis
 
@@ -176,9 +185,12 @@ We will also avoid harming vendors through our own testing. We will not place or
 - Kant, I. (1998). *Groundwork of the metaphysics of morals* (M. Gregor, Trans.). Cambridge University Press. (Original work published 1785)
 - Kasinathan, S. (2024, December 2). Learning from “failed” biz models, these M’sians are tackling a persistent F&B pain point. *Vulcan Post*. https://vulcanpost.com/876339/remeal-malaysia-startup-food-surplus-app-reduce-waste
 - Keßler, C., & McKenzie, G. (2018). A geoprivacy manifesto. *Transactions in GIS, 22*(1), 3–19. https://doi.org/10.1111/tgis.12305
+- Koidis, T., Jia, W., Stoikidou, T., Walker, M., & Gowland, M. H. (2024). Food Allergy Awareness Champions: Improving Food Safety Standards in Online Food Procurement for People With Food Hypersensitivities. FSA RESEARCH AND EVIDENCE Учредители: Food Standards Agency.
 - Mill, J. S. (1863). *Utilitarianism*. Parker, Son, and Bourn.
 - Nouwens, M., Liccardi, I., Veale, M., Karger, D., & Kagal, L. (2020). Dark patterns after the GDPR: Scraping consent pop-ups and demonstrating their influence. In *Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems*. ACM. https://doi.org/10.1145/3313831.3376321
 - Obar, J. A., & Oeldorf-Hirsch, A. (2020). The biggest lie on the internet: Ignoring the privacy policies and terms of service policies of social networking services. *Information, Communication & Society, 23*(1), 128–147. https://doi.org/10.1080/1369118X.2018.1486870
+- Tan, A. L., Trupp, A., & Tan, J. X. (2023). Dining out safely with food allergies: A comparative perspective from restaurant managers and servers in Malaysia. International Food Research Journal, 30(3), 750-763.
+- Valenta, R., Hochwallner, H., Linhart, B., & Pahr, S. (2015). Food allergies: the basics. Gastroenterology, 148(6), 1120–31.e4. https://doi.org/10.1053/j.gastro.2015.02.006
 - ReMeal. (n.d.-a). *ReMeal*. https://remeal.app/
 - ReMeal. (n.d.-b). *ReMeal – Rescue Surplus Food* [Google Play listing]. https://play.google.com/store/apps/details?id=app.remeal.user
 - ReMeal. (2024a). *Privacy Notice*. Last updated 9 June 2024. https://remeal.app/privacy-policy
@@ -239,3 +251,8 @@ The following screenshots were captured from the ReMeal Android app and its poli
 ### Figure A13: Separate Android notification-permission prompt after opening the home screen
 
 ![Figure A13: Android notification-permission prompt](appendix/screenshots/13-app-notification-permission.png)
+
+### Figure A14: Terms on Vendor's representations
+
+
+![Figure A14: Terms on Vendor's representations](appendix/screenshots/14-terms-vender-representations.jpg)
