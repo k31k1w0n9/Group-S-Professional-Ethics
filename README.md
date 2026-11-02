@@ -60,7 +60,7 @@ For location, we followed one sequence: choosing “Set From Map” brought up t
 
 App privacy research covers risks and consent. Ebrahimi et al. (2021) mapped 59 software-engineering studies from 2008–2018: most focused on detecting privacy leaks, with fewer studies on privacy policies and user perspectives. Al Rezan et al. (2025) found that nine popular Malaysian food-delivery apps failed to meet the standards developed in their consumer-protection analysis. Obar and Oeldorf-Hirsch (2020) found 74% of 543 participants skipped a privacy policy for a fictitious social network; Nouwens et al. (2020) found that only 11.8% of 680 UK websites met the study’s minimum consent criteria. Together, they show policy and interface design shape consent. Acquisti et al. (2015) show privacy choices depend on context, and Keßler and McKenzie (2018) highlight the sensitivity of location data. These studies concern other services; they guide our checks, but do not prove ReMeal has the same problems.
 
-4.2 Refunds and Consumer Protection
+### 4.2 Refunds and Consumer Protection
 
 Malaysian law gives online buyers some baseline protection. The Consumer Protection (Electronic Trade Transactions) Regulations 2012, in force since 1 July 2013, require online sellers to disclose details such as price, payment methods, terms and conditions, and estimated delivery time. They also require sellers to give buyers a way to correct errors before an order is confirmed (Consumer Protection (Electronic Trade Transactions) Regulations 2012). These provisions deal with disclosure and error correction before confirmation. The summaries we reviewed do not describe a rule on refunds after an order is accepted, so ReMeal’s refund position is assessed from its own terms below. Abenoh et al. (2019) note that Malaysian food-delivery contracts fall under several laws, including the Consumer Protection Act 1999, the Sale of Goods Act 1957, the Food Act 1983 and the Electronic Commerce Act 2006. They ask how far these laws protect e-consumers in food sales. That paper is a conference contribution that poses a question and does not measure refund outcomes.
 
@@ -68,7 +68,7 @@ Siali et al. (2024) surveyed 310 online food-delivery users in Sarawak, mostly a
 
 Together, these sources show that disclosure, error correction and redress are recognised consumer concerns in Malaysian food delivery. They do not tell us what ReMeal offers. We therefore use them to ask what is refundable, when, and how a customer can complain, and our conclusions rely on ReMeal’s own terms and the walkthrough described below.
 
-4.3 Food Descriptions, Allergens, and Food Safety
+### 4.3 Food Descriptions, Allergens, and Food Safety
 
 In Malaysia, food quality and labelling are governed mainly by the Food Act 1983 and the Food Regulations 1985, and compliance is mandatory for food sold in the country. The Regulations include labelling rules that require ingredients known to cause hypersensitivity to be declared. Soon (2018) examined allergen labelling on products sold in Malaysia, including “may contain” statements, and called for clearer guidance in the country’s allergen-labelling rules. That work concerns packaged products, not app listings for restaurant or cafe food, so we do not assume the same rules or problems apply to ReMeal.
 
