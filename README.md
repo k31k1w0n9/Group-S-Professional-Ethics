@@ -152,20 +152,56 @@ We will also avoid harming vendors through our own testing. We will not place or
 
 ## Appendix: Privacy Evidence
 
-Screenshots from the ReMeal Android app and policy pages, captured on 2 November 2026.
+The following screenshots were captured from the ReMeal Android app and its policy pages on 2 November 2026. They are displayed here for convenient review; the image files are stored in `appendix/screenshots/`.
 
-| Figure | Evidence | Screenshot |
-|---|---|---|
-| A1 | Sign-in screen showing guest access and account-consent wording | [01-app-sign-in-consent-guest.jpeg](output/playwright/01-app-sign-in-consent-guest.jpeg) |
-| A2 | Android location-permission choices | [02-app-location-permission.png](output/playwright/02-app-location-permission.png) |
-| A3 | Location screen offering current location or map selection | [03-app-set-location-options.png](output/playwright/03-app-set-location-options.png) |
-| A4 | Terms on registration and account deletion | [05-terms-registration-account-deletion.png](output/playwright/05-terms-registration-account-deletion.png) |
-| A5 | Terms on acceptance and data processing | [06-terms-consent-background.png](output/playwright/06-terms-consent-background.png) |
-| A6 | Privacy Notice data-collection categories | [13-privacy-data-collection-methods.jpeg](output/playwright/13-privacy-data-collection-methods.jpeg) |
-| A7 | Privacy Notice data disclosure and sharing | [08-privacy-data-disclosure.png](output/playwright/08-privacy-data-disclosure.png) |
-| A8 | Google Play Data safety label | [09-google-play-data-safety.png](output/playwright/09-google-play-data-safety.png) |
-| A9 | Privacy Notice retention and international transfers | [07-privacy-retention-international-transfers.png](output/playwright/07-privacy-retention-international-transfers.png) |
-| A10 | Terms on allergens and location | [10-terms-allergens-location.png](output/playwright/10-terms-allergens-location.png) |
-| A11 | Privacy Notice overview | [12-privacy-notice-overview.png](output/playwright/12-privacy-notice-overview.png) |
-| A12 | “Use Default Location” screen and location-access banner | [12-app-default-location-banner.png](output/playwright/12-app-default-location-banner.png) |
-| A13 | Separate Android notification-permission prompt after opening the home screen | [13-app-notification-permission.png](output/playwright/13-app-notification-permission.png) |
+### Figure A1: Sign-in screen showing guest access and account-consent wording
+
+![Figure A1: ReMeal sign-in screen](appendix/screenshots/01-app-sign-in-consent-guest.jpeg)
+
+### Figure A2: Android location-permission choices
+
+![Figure A2: Android location-permission choices](appendix/screenshots/02-app-location-permission.png)
+
+### Figure A3: Location screen offering current location or map selection
+
+![Figure A3: ReMeal location screen](appendix/screenshots/03-app-set-location-options.png)
+
+### Figure A4: Terms on registration and account deletion
+
+![Figure A4: ReMeal terms on registration and account deletion](appendix/screenshots/05-terms-registration-account-deletion.png)
+
+### Figure A5: Terms on acceptance and data processing
+
+![Figure A5: ReMeal terms on acceptance and data processing](appendix/screenshots/06-terms-consent-background.png)
+
+### Figure A6: Privacy Notice data-collection categories
+
+![Figure A6: ReMeal Privacy Notice data-collection categories](appendix/screenshots/13-privacy-data-collection-methods.jpeg)
+
+### Figure A7: Privacy Notice data disclosure and sharing
+
+![Figure A7: ReMeal Privacy Notice data disclosure and sharing](appendix/screenshots/08-privacy-data-disclosure.png)
+
+### Figure A8: Google Play Data safety label
+
+![Figure A8: Google Play Data safety label](appendix/screenshots/09-google-play-data-safety.png)
+
+### Figure A9: Privacy Notice retention and international transfers
+
+![Figure A9: ReMeal Privacy Notice retention and international transfers](appendix/screenshots/07-privacy-retention-international-transfers.png)
+
+### Figure A10: Terms on allergens and location
+
+![Figure A10: ReMeal terms on allergens and location](appendix/screenshots/10-terms-allergens-location.png)
+
+### Figure A11: Privacy Notice overview
+
+![Figure A11: ReMeal Privacy Notice overview](appendix/screenshots/12-privacy-notice-overview.png)
+
+### Figure A12: “Use Default Location” screen and location-access banner
+
+![Figure A12: ReMeal default-location screen and location-access banner](appendix/screenshots/12-app-default-location-banner.png)
+
+### Figure A13: Separate Android notification-permission prompt after opening the home screen
+
+![Figure A13: Android notification-permission prompt](appendix/screenshots/13-app-notification-permission.png)
