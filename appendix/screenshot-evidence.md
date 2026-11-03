@@ -125,3 +125,27 @@ The checkout screen shows the delivery option, rider collection time, delivery a
 ![Figure A20: ReMeal checkout lower section](screenshots/20-checkout-bottom.png)
 
 The checkout shows an out-of-stock option set to "Replace with alternative if available" by default. It also includes a notes field, subtotal, delivery fee and total of RM29.55. No refund or cancellation warning is visible before the "Proceed to Payment" button. We did not enter the payment stage or place an order.
+
+### Figure A21: Dorsett 40% OFF Buffet Breakfast (Available Daily) listing
+
+![Figure A21: Dorsett 40% OFF Buffet Breakfast (Available Daily) listing](screenshots/21-Dorsett-Buffet-Breakfast.jpg)
+
+The listing describes the buffet as offering local and international dishes and a children’s menu, but names no dishes and gives no ingredient or allergen information.
+
+### Figure A22: Dorsett 50% OFF Weekend Buffet Hi-tea (Saturdays) listing
+
+![Figure A22: Dorsett 50% OFF Weekend Buffet Hi-tea (Saturdays) listing](screenshots/22-Dorsett-Weekend-Buffet-Hi-tea.jpg)
+
+The listing describes a spread of local favourites and international flavours but names no dishes and gives no ingredient or allergen information.
+
+### Figure A23: Krem Mystery Single Scoop - Eternal Series listing
+
+![Figure A23: Krem Mystery Single Scoop - Eternal Series listing](screenshots/23-Krem-Tarik-Mystery-Single-Scoop.jpg)
+
+The listing names four possible flavours and states “Contains dairy.” It does not identify the flavour supplied or provide a scoop size or information about other allergens.
+
+### Figure A24: Krem Waffle + Eternal Series listing
+
+![Figure A24: Krem Waffle + Eternal Series listing](screenshots/24-Krem-Tarik-Waffle.jpg)
+
+The listing describes one golden waffle served with a mystery scoop from four possible flavours and states “Contains dairy.” It does not specify the waffle’s contents or ingredients, the flavour supplied, or information about other allergens.

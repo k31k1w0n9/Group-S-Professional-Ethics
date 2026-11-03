@@ -22,6 +22,7 @@ On 1 September 2026, we reviewed two listings from each of two stores in the ReM
 | Dorsett: 50% OFF Weekend Buffet Hi-tea (Saturdays), RM 79.00 (was RM 158.00) | Dine-in only; advance booking, redeemed on that week’s Saturday; 13:00–17:00; “50 left”; “local favorites and international flavors” | Dish names, ingredients, allergens |
 | Krem Tarik: Mystery Single Scoop – Eternal Series, RM 6.00 (was RM 11.00) | “A scoop of surprise” from four named flavours (Chocolate, Vanilla, Dark Choc Mint, Popping Lime); “Contains dairy”; “3 left”; counter collection 12:00–22:00; dine-in on request | Flavour received; scoop size; other allergens |
 | Krem Tarik: Waffle + Eternal Series, RM 8.00 (was RM 12.00) | “One golden waffle” with a mystery scoop (same four flavours); “Contains dairy”; “1 left” | Flavour received; waffle contents; other allergens |
+(Fig. A21-A24)
 
 **The level of detail varies.** Dorsett describes its buffets only in general terms and names no dish. Its breakfast availability line shows 06:30–10:00, but the description says “6.30am – 10.30am”, and the listing does not explain the difference. Krem Tarik names the four possible flavours, so the uncertainty of the mystery item is limited to a known range. It does not, however, give a scoop size or say what the waffle contains.
 
