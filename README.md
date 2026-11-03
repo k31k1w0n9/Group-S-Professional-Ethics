@@ -54,7 +54,7 @@ We date and number every screenshot in the Appendix, treat developer disclosures
 
 ### 3.2 Evidence and Limitations
 
-Our screenshots (Appendix, Figs. A1-A24) show what the app and policies displayed on the dates we captured them. We captured the listings on 1 September 2026, the privacy walkthrough on 2 November and the App Store summary on 3 November. App-store privacy labels are supplied by the developer, not independently audited. We did not inspect network traffic, ReMeal’s servers, or how vendors and service providers handle data. Our location test followed one path. We did not explicitly deny access, test later launches, establish how the default location is chosen, or assess the separate notification prompt. For refunds and cancellations, we examined ReMeal's delivery cart and checkout screens on 3 November 2026, stopping before payment (Appendix, Figs. A18–A20).
+Our screenshots (Appendix, Figs. A1-A24) show what the app and policies displayed on the dates we captured them. We captured the listings on 1 November 2026, the privacy walkthrough on 2 November and the App Store summary on 3 November. App-store privacy labels are supplied by the developer, not independently audited. We did not inspect network traffic, ReMeal’s servers, or how vendors and service providers handle data. Our location test followed one path. We did not explicitly deny access, test later launches, establish how the default location is chosen, or assess the separate notification prompt. For refunds and cancellations, we examined ReMeal's delivery cart and checkout screens on 3 November 2026, stopping before payment (Appendix, Figs. A18–A20).
 
 ## 4. Related Literature
 
