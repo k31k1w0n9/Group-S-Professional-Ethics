@@ -1,27 +1,27 @@
 # 6. Ethical Analysis
 
-[Back to the report](README.md) · [Privacy](issues/privacy.md) · [Refunds](issues/refunds.md) · [Listings and allergens](issues/food-listings-and-allergens.md)
+[Back to the report](README.md)
 
-### 6.1 Relevant ACM/IEEE Code Principles
+## 6.1 Relevant ACM/IEEE Code Principles
 
-Clause **3.12** requires engineers to develop software and documents that respect affected users’ privacy. Clause **3.13** says data should be accurate, obtained by ethical and lawful means, and used only in properly authorised ways, and **1.03** says software should be approved only when engineers have a well-founded belief that it does not diminish privacy. Clause **1.06** calls for fair, non-deceptive statements; we note the difference between the Terms’ “required” location and the app’s “greater experience” wording without alleging deception. Clauses **2.07** and **2.09** guide engineers to document and raise significant concerns, including with an appropriate authority if a higher ethical concern is compromised (IEEE-CS/ACM Joint Task Force, 1999). Clause 1.03 is also relevant to allergen information, since missing warnings could put customers at risk. For refunds and food listings, Clauses 1.06 and 3.01 support honest communication and making important trade-offs clear, including cancellation restrictions and uncertainty about what food customers will receive.
+For privacy, **3.12** concerns privacy-respecting software and documentation, while **3.13** requires accurate, ethically and lawfully obtained data used with proper authorisation. For refunds and descriptions, **1.06** supports truthful statements and **3.01** making significant trade-offs available for users’ consideration. For allergens, **1.03** addresses safety and **1.04** disclosure of reasonably identified dangers. **2.07** and **2.09** guide reporting concerns to employers or appropriate authorities (IEEE-CS/ACM Joint Task Force, 1999). These are grounds for investigation, not established breaches.
 
 ## 6.2 Applying Ethical Theories
 
 ### 6.2.1 Utilitarianism
 
-**Utilitarianism** (Mill, 1863) suits ReMeal’s trade-offs. Its benefits (less waste, cheaper food and vendor income) must be weighed against harms to individual users, such as a refused refund or a reaction to an undisclosed allergen. Store pages display CO₂e savings estimates, but we have not verified how they are calculated.
-
-For privacy, location data helps show nearby vendors but risks unwanted sharing or exposure. Users reached the home screen without granting device access, but we did not test checkout from the default location.
+Utilitarianism (Mill, 1863) suits ReMeal’s trade-offs: cheaper meals, vendor income and potential waste reduction must be weighed against privacy risks, lost payments and allergic harm. Displayed CO₂e estimates are not verified benefits. We will ask whether less intrusive location choices, clearer cancellation warnings and better food information preserve benefits while reducing harm.
 
 ### 6.2.2 Kantian Deontology
 
-**Kantian deontology** (Kant, 1785/1998) suits the issues of information and consent: whether users can make informed choices about their data, money and food. Misleading or withholding information is wrong even if the app does net good, so a worthy cause cannot excuse it.
+Kantian ethics (Kant, 1785/1998) suits questions of informed choice. Environmental benefits do not excuse misleading descriptions or treating users merely as sources of data or income. Guest and default-location options show some choice, but unclear permission wording and untested account controls leave consent unresolved. Cancellation terms and allergen details similarly matter to autonomous decisions.
 
-For privacy, the Terms call a location “required”, while the app calls device access a “greater experience”. This mismatch may weaken informed consent. We did not establish whether the Terms mean manual entry or device permission, or whether users can control optional data uses.
+## 6.3 Where the Code May Not Fully Address an Issue
 
-### 6.3 Where the Code May Not Fully Address an Issue
+The Code does not specify necessary location precision or when conditional access undermines consent. Product decisions may exceed an individual engineer’s authority.
 
-The Code does not specify what location data is needed or whether consent is meaningful if refusing access limits service. It also leaves the privacy–convenience trade-off unresolved. These choices may sit with product management, outside an individual engineer’s control, so applying the Code requires evidence and ethical judgement.
+Likewise, ReMeal displays information while vendors describe and prepare food; customers bear immediate health risks and are told to ask vendors. The Code does not prescribe detailed platform–vendor safety responsibilities, and our evidence does not establish legal liability.
 
-The food listings show a related risk pathway: ReMeal controls how listing information is displayed, while vendors provide food details and prepare the orders. Customers rely on those listings but are directed to contact vendors about allergens and inspect orders at collection. If allergen information is missing, the customer faces the immediate health risk, while practical disclosure and food-handling responsibilities sit with the vendor. This describes how the platform design may distribute operational risk; it does not establish legal liability. The Code does not set out marketplace-specific duties for checking vendor information or governing platform–vendor safety responsibilities. The Code also does not specify exactly when cancellation restrictions should be shown to customers or how clearly vendor acceptance must be communicated.
+The Code also does not specify exactly when cancellation restrictions should be shown to customers or how clearly vendor acceptance must be communicated.
+
+Utilitarianism can assess the costs and benefits of stronger checks, while Kantian ethics tests whether customers receive enough information to choose knowingly. Together they help evaluate options where the Code gives no detailed rule.

@@ -1,17 +1,19 @@
 # Issue 1: Privacy and Personal Data
 
-[Back to the report](../README.md) · [Ethical analysis](../ethical-analysis.md) · [Screenshot evidence](../appendix/screenshot-evidence.md)
+[Report](../README.md) · [Ethical analysis](../ethical-analysis.md) · [Evidence](../appendix/screenshot-evidence.md)
 
 ## 4.1 Privacy and Personal Data in Food Delivery Apps
 
-Privacy studies show limits to notice-and-consent. Ebrahimi et al. (2021) mapped 59 software-engineering studies, mostly on leak detection. Obar and Oeldorf-Hirsch (2020) found 74% of 543 participants skipped a policy for a fictitious social network. Nouwens et al. (2020) found 11.8% of 680 UK sites using five consent platforms met minimum criteria; the sample was not representative. Al Rezan et al. (2025) found nine Malaysian food apps failed the authors’ standards. Acquisti et al. (2015) and Keßler and McKenzie (2018) highlight context and location. These guide our checks, not findings about ReMeal.
+Ebrahimi et al. (2021) mapped 59 software-engineering studies, mostly addressing leak detection. Consent research examines a different weakness: 74% of 543 participants skipped a fictitious social network’s privacy policy (Obar & Oeldorf-Hirsch, 2020), while only 11.8% of 680 UK websites using five consent platforms met Nouwens et al.’s (2020) minimum criteria. This was not a representative website sample.
+
+Al Rezan et al. (2025) found nine Malaysian food apps failed their consumer-protection standards. Together, these studies support checking disclosures and interfaces alongside technical risks. Context shapes privacy decisions (Acquisti et al., 2015), and location raises distinctive concerns (Keßler & McKenzie, 2018). None establishes a ReMeal violation.
 
 ## 5.1 Privacy and Personal Data
 
-ReMeal says it may collect contact, location, transaction, app, device and message data; share orders with vendors, contact details for marketing/chat, and data with service providers; and transfer data overseas (ReMeal, 2024a, §§ 1, 3–5; Appendix, Figs. A6–A9). Its notice also treats provision of personal data as agreement to the notice (introduction; Fig. A11).
+ReMeal’s notice permits collecting contact, location, transaction, device and message data, sharing with vendors and service providers, and overseas transfers (ReMeal, 2024a, §§ 1, 3–5; Figs. A6–A7, A9).
 
-Sign-in offers guest access but links account creation with agreement to the Terms and Privacy Policy; no separate consent control is visible (Fig. A1). The Terms require an account (§ 2.1), treat platform use as consent to processing (§ 1.0), and require deletion requests by email (§ 2.2; Figs. A4–A5). The account form and guest ordering were not tested.
+Sign-in links account creation with agreement to the Terms and Privacy Policy, without a separate consent control visible on that screen; guest access is offered (A1). The Terms treat platform use as consent and direct deletion requests to email (ReMeal, 2024b, §§ 1.0, 2.2; Figs. A4–A5). The account form remains unchecked.
 
-The Terms require a location to show vendors (§ 5.5; Fig. A10), while the app calls device access a “greater experience.” “Set From Map” triggered Android’s prompt; backing out offered “Use Default Location” and opened the home screen without a grant (Figs. A2–A3, A12). We did not test ordering from the default, so GPS necessity is unknown.
+The Terms require a location to show nearby vendors (ReMeal, 2024b, § 5.5; Fig. A10), while the app presents device access as an enhancement. Providing a location and granting device access are different, so this wording does not establish a contradiction. Selecting “Set From Map” triggered Android’s permission prompt; backing out enabled “Use Default Location” and access to the home screen (A2–A3, A12). We did not test ordering from it.
 
-Apple’s developer-provided App Store summary says Purchases, Location, Contact Info, Identifiers and Usage Data may be linked to users, while Diagnostics may be collected without being linked (Apple App Store, n.d.; Appendix, Fig. A16). The Google Play label says data “isn’t encrypted” (ReMeal, n.d.-b; Fig. A8); Google defines this field as encryption in transit, not at rest (Google Play, n.d.). These disclosures are not independent audits. We found no evidence of misuse; our concern is whether users understand the scope and choices.
+Apple’s developer label lists identity-linked data (Apple App Store, n.d.; Fig. A16). Google Play reports data “isn’t encrypted” (ReMeal, n.d.-b; Fig. A8); this field concerns transmission, not storage (Google Play, n.d.). These are developer claims. Our concern is understandable, meaningful data choice; we found no evidence of misuse.
