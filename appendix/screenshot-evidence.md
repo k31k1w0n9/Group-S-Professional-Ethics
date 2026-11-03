@@ -2,7 +2,7 @@
 
 [Back to the report](../README.md)
 
-Figures A1–A17 document the Android walkthrough, policy pages and three supplemental screens. App and policy screenshots were captured on 2 November 2026, except the App Store summary in Figure A16, captured on 3 November 2026. Figure A17 is a separate food listing, outside the four offers in Table 1. Screenshots record displayed information; they do not verify backend data flows, vendor practices or store claims.
+Figures A1–A20 document the app walkthroughs, policy pages and supporting evidence. Screenshots were captured on 2 November 2026, except Figure A16 and Figures A18–A20, captured on 3 November 2026. Figures A18–A20 show the iOS delivery cart and checkout process. Figure A17 is a separate food listing, outside the four offers in Table 1. Screenshots record displayed information; they don't verify backend data flows, vendor practices or store claims.
 
 ### Figure A1: Sign-in and account-consent wording
 
@@ -106,4 +106,22 @@ Captured 3 November 2026 from the Malaysian App Store listing for ReMeal (Apple 
 
 This separate Sunset Terrace listing displays a “may contain traces” note. It is not part of the four-offer sample in Table 1.
 
-We did not inspect network traffic, servers or vendor systems; explicitly deny location permission; test whether the location banner returns; or test ordering from the default location. The home screen showed University of Nottingham Malaysia, but we did not establish how that default was selected. The account-creation form was not opened. The app-store disclosures are developer-supplied.
+We didn't inspect network traffic, servers or vendor systems; explicitly deny location permission; test whether the location banner returns; or test ordering from the default location. The home screen showed University of Nottingham Malaysia, but we could not establish how that default was selected. The account-creation form was not opened. The app-store disclosures are developer-supplied.
+
+### Figure A18: ReMeal delivery cart
+
+![Figure A18: ReMeal delivery cart](screenshots/18-delivery-cart.png)
+
+The cart shows one Fried Kuey Teow from Palms Café, Putrajaya, priced at RM16.00. It displays the item quantity, discount and an option to proceed to checkout. No refund or cancellation information is visible on this screen.
+
+### Figure A19: Delivery checkout (upper section)
+
+![Figure A19: ReMeal checkout upper section](screenshots/19-checkout-top.png)
+
+The checkout screen shows the delivery option, rider collection time, delivery address and GrabExpress delivery fee of RM13.55. No refund or cancellation warning is visible in this section.
+
+### Figure A20: Delivery checkout (lower section)
+
+![Figure A20: ReMeal checkout lower section](screenshots/20-checkout-bottom.png)
+
+The checkout shows an out-of-stock option set to "Replace with alternative if available" by default. It also includes a notes field, subtotal, delivery fee and total of RM29.55. No refund or cancellation warning is visible before the "Proceed to Payment" button. We did not enter the payment stage or place an order.
