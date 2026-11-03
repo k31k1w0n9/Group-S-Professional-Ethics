@@ -12,7 +12,7 @@
 
 ## 5.3 Food Descriptions and Photos
 
-On 1 September 2026, we reviewed two listings from each of two stores in the ReMeal app: [Dorsett Hartamas Kuala Lumpur](https://remeal.app/stores/dorsett-hartamas-kuala-lumpur) and [Krem Tarik, Kota Damansara](https://remeal.app/stores/krem-tarik-kota-damansara). For each listing, we recorded the contents, ingredients, price, availability, collection rules, allergen information and photos.
+On 1 November 2026, we reviewed two listings from each of two stores in the ReMeal app: [Dorsett Hartamas Kuala Lumpur](https://remeal.app/stores/dorsett-hartamas-kuala-lumpur) and [Krem Tarik, Kota Damansara](https://remeal.app/stores/krem-tarik-kota-damansara). For each listing, we recorded the contents, ingredients, price, availability, collection rules, allergen information and photos.
 
 **Table 1. Details given in the listings reviewed**
 
