@@ -1,0 +1,27 @@
+# Issue 2: Refunds and Cancellations
+
+[Back to the report](../README.md) · [Ethical analysis](../ethical-analysis.md) · [Screenshot evidence](../appendix/screenshot-evidence.md)
+
+## 4.2 Refunds and Consumer Protection
+
+Malaysian law gives online buyers some baseline protection. The Consumer Protection (Electronic Trade Transaction) Regulations 2024, in force from 25 December 2024, replaced the 2012 Regulations. They require online marketplace suppliers to disclose prescribed details, such as the seller’s identity and contact information, product description, full price, payment method, terms, and estimated delivery time. They prohibit suppliers from providing information they know or have reason to believe is false or misleading. The Regulations also require ways to correct order errors and acknowledge orders, an operator complaint channel, and re-delivery at the supplier’s cost for materially different or defective goods. They do not promise refunds for every complaint (Consumer Protection (Electronic Trade Transaction) Regulations 2024, regs. 1, 3, 5–7). These provisions address disclosure, correction and redress; ReMeal’s refund position is assessed from its own terms below.
+
+Abenoh et al. (2019) note that Malaysian food-delivery contracts fall under several laws, including the Consumer Protection Act 1999, the Sale of Goods Act 1957, the Food Act 1983 and the Electronic Commerce Act 2006. They ask how far these laws protect e-consumers in food sales. That paper is a conference contribution that poses a question and does not measure refund outcomes.
+
+Siali et al. (2024) surveyed 310 online food-delivery users in Sarawak, mostly about GrabFood and Foodpanda. They found that the right to redress was positively but not significantly related to customer loyalty. They also note that problems such as order accuracy and miscommunication can occasionally breach consumer rights. The sample was a convenience sample, 85.5% were full-time students, and the platforms studied are large delivery services rather than a small surplus-food app. The study therefore does not show how refunds work in an app like ReMeal.
+
+Together, these sources show that disclosure, error correction and redress are recognised consumer concerns in Malaysian food delivery. They do not tell us what ReMeal offers. We therefore use them to ask what is refundable, when, and how a customer can complain, and our conclusions rely on ReMeal’s own terms and the walkthrough described below.
+
+## 5.2 Refunds and Cancellations
+
+One concern with ReMeal is how its cancellation policy affects customers. According to Clauses 5.7 and 5.8 of its Terms & Conditions, customers can cancel an order and receive a refund only if the vendor has not accepted it yet. They must contact ReMeal through its in-app support chat to request cancellation. Once the vendor accepts the order, customers who choose to cancel are no longer entitled to a refund, even a partial one. Clause 5.2 also states that vendors are not required to provide refunds or replacements if they cannot reasonably follow a customer's special instructions (ReMeal, 2024b).
+
+However, this doesn't mean refunds are unavailable in every situation. ReMeal's seller documentation explains that full refunds are possible for cancelled orders, while partial refunds can be issued when part of an order cannot be fulfilled. It also describes how refunds for missing items can be processed after an order has been completed, although these must be handled by ReMeal's team (ReMeal, n.d.-d).
+
+The Terms also set out rules for collecting orders. Under Clause 7.2.1, vendors are only required to hold an order for up to 20 minutes after the scheduled collection time. Clause 7.2.2 states that customers are responsible for checking their food when collecting it and reporting any problems before leaving. If an unreasonable delay is caused by the customer, they may lose their right to a refund or replacement. For eligible refunds, Clause 5.8 says the money is returned through the original payment method, although ReMeal may request supporting documents before processing it (ReMeal, 2024b; Appendix, Fig. A15).
+
+What makes this worth investigating is whether customers clearly understand when they lose the option to cancel. The seller guide lists order statuses such as Pending, Open, Collected and Cancelled, but does not separately mention an Accepted status (ReMeal, n.d.-c). Since vendor acceptance determines refund eligibility, it's worth checking whether this is clearly communicated to customers in the app.
+
+The policy itself isn't necessarily unfair. Vendors dealing with surplus food could lose money or waste food if customers cancel after their orders have been prepared. However, customers should also know what they are agreeing to before paying. This relates to Clauses 1.06 and 3.01 of the ACM/IEEE-CS Software Engineering Code of Ethics, particularly regarding honest communication and making important trade-offs clear to users (IEEE-CS/ACM Joint Task Force, 1999).
+
+Our investigation so far is based on ReMeal's published policies and seller documentation. We haven't tested an actual cancellation or refund. For Part 2, we should check whether the refund policy is clearly shown during checkout, how vendor acceptance appears in the customer app, and how customers can report missing or incorrect orders. Until then, we cannot conclude that the app is misleading customers.
