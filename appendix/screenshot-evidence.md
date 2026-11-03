@@ -2,7 +2,7 @@
 
 [Back to the report](../README.md)
 
-Figures A1–A20 document the app walkthroughs, policy pages and supporting evidence. Screenshots were captured on 2 November 2026, except Figure A16 and Figures A18–A20, captured on 3 November 2026. Figures A18–A20 show the iOS delivery cart and checkout process. Figure A17 is a separate food listing, outside the four offers in Table 1. Screenshots record displayed information; they don't verify backend data flows, vendor practices or store claims.
+Figures A1–A24 document the app walkthroughs, policy pages and supporting evidence. Figures A1–A15 and A17 were captured on 2 November 2026, while Figure A16 and Figures A18–A20 were captured on 3 November 2026. Figures A21–A24 show the four Dorsett Hartamas and Krem Tarik listings reviewed for Table 1. Figure A17 is a separate food listing outside that sample. Screenshots record displayed information; they do not verify backend data flows, vendor practices or store claims.
 
 ### Figure A1: Sign-in and account-consent wording
 
@@ -106,8 +106,6 @@ Captured 3 November 2026 from the Malaysian App Store listing for ReMeal (Apple 
 
 This separate Sunset Terrace listing displays a “may contain traces” note. It is not part of the four-offer sample in Table 1.
 
-We didn't inspect network traffic, servers or vendor systems; explicitly deny location permission; test whether the location banner returns; or test ordering from the default location. The home screen showed University of Nottingham Malaysia, but we could not establish how that default was selected. The account-creation form was not opened. The app-store disclosures are developer-supplied.
-
 ### Figure A18: ReMeal delivery cart
 
 ![Figure A18: ReMeal delivery cart](screenshots/18-delivery-cart.png)
@@ -149,3 +147,5 @@ The listing names four possible flavours and states “Contains dairy.” It doe
 ![Figure A24: Krem Waffle + Eternal Series listing](screenshots/24-Krem-Tarik-Waffle.jpg)
 
 The listing describes one golden waffle served with a mystery scoop from four possible flavours and states “Contains dairy.” It does not specify the waffle’s contents or ingredients, the flavour supplied, or information about other allergens.
+
+We didn't inspect network traffic, servers or vendor systems; explicitly deny location permission; test whether the location banner returns; or test ordering from the default location. The home screen showed University of Nottingham Malaysia, but we could not establish how that default was selected. The account-creation form was not opened. The app-store disclosures are developer-supplied.
