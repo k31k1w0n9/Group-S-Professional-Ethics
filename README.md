@@ -46,7 +46,7 @@ Each issue has one owner:
 | Issue | Methods |
 |---|---|
 | Privacy and data | Privacy Notice and Terms; Android app walkthrough of permission prompts; app-store privacy labels |
-| Refunds and cancellations | Terms and ReMeal’s seller guides on acceptance, cancellation and refunds |
+| Refunds and cancellations | Terms and ReMeal’s seller guides on acceptance, cancellation and refunds; delivery cart and checkout walkthrough up to payment |
 | Food descriptions and photos | Four listings from two stores, each checked for contents, ingredients, price, availability, collection rules and photos |
 | Allergens and food safety | Terms on allergens; the same listings checked for allergen details |
 
@@ -54,7 +54,7 @@ We date and number every screenshot in the Appendix, treat developer disclosures
 
 ### 3.2 Evidence and Limitations
 
-Our screenshots (Appendix, Figs. A1–A17) show what the app and policies displayed on the dates we captured them. We captured the listings on 1 September 2026, the privacy walkthrough on 2 November and the App Store summary on 3 November. App-store privacy labels are supplied by the developer, not independently audited. We did not inspect network traffic, ReMeal’s servers, or how vendors and service providers handle data. Our location test followed one path. We did not explicitly deny access, test later launches, establish how the default location is chosen, or assess the separate notification prompt.
+Our screenshots (Appendix, Figs. A1-A24) show what the app and policies displayed on the dates we captured them. We captured the listings on 1 September 2026, the privacy walkthrough on 2 November and the App Store summary on 3 November. App-store privacy labels are supplied by the developer, not independently audited. We did not inspect network traffic, ReMeal’s servers, or how vendors and service providers handle data. Our location test followed one path. We did not explicitly deny access, test later launches, establish how the default location is chosen, or assess the separate notification prompt. For refunds and cancellations, we examined ReMeal's delivery cart and checkout screens on 3 November 2026, stopping before payment (Appendix, Figs. A18–A20).
 
 ## 4. Related Literature
 
@@ -75,7 +75,7 @@ See [Section 6](ethical-analysis.md) for the Code principles, ethical theories a
 
 ## 7. Conclusion
 
-Our evidence so far raises four concerns, none yet proof of wrongdoing. The Terms and the app explain location differently, and the Privacy Notice allows wide sharing. Refunds end once a vendor accepts an order, and we have not yet checked how clearly the app shows this. Listings vary in detail, and allergen information is inconsistent, with responsibility left to vendors. Part 2 will test whether ReMeal gives users the information and control they need.
+Our evidence so far raises four concerns, none yet proof of wrongdoing. The Terms and the app explain location differently, and the Privacy Notice allows wide sharing. Customers who cancel after vendor acceptance are not eligible for refunds, and our checkout walkthrough showed no cancellation warnings before the payment stage. Listings vary in detail, and allergen information is inconsistent, with responsibility left to vendors. Part 2 will test whether ReMeal gives users the information and control they need.
 
 ## 8. Plan for Part 2
 
