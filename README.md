@@ -23,47 +23,38 @@
 
 ## 1. Introduction
 
-This proposal sets up our ethical review of ReMeal, a Malaysian app that sells surplus food from local vendors at reduced prices. ReMeal has a worthwhile aim: less food waste and cheaper meals. We ask whether an app with a good purpose can still treat its users unfairly through its design and policies. Section 2 explains our choice of system, and Section 3 describes how we are investigating it. Section 4 reviews related research. Section 5 reports four issues: privacy, refunds and cancellations, food descriptions, and allergen information. Section 6 proposes our ethical framework, and Section 8 sets out our plan for Part 2.
+This proposal sets up our ethical review of ReMeal, a Malaysian app selling surplus food from local vendors at reduced prices. We ask whether an app with a worthwhile aim (less food waste and cheaper meals) can still treat users unfairly through its design and policies. We examine four issues: privacy, refunds and cancellations, food descriptions, and allergen information.
 
 ## 2. System Overview and Selection Rationale
 
 ### 2.1 What ReMeal Does
 
-ReMeal is a Malaysian app developed by ReMeal Sdn. Bhd. It connects cafés, bakeries, supermarkets, and restaurants with customers who want to buy surplus food at reduced prices. Users can pay through the app and, depending on the available option, collect their order, dine in, or use delivery. In December 2024, *Vulcan Post* reported that ReMeal had 16 active stores and 1,800 user sign-ups, and described a model in which users collected food from vendors rather than receiving deliveries (Kasinathan, 2024). ReMeal’s current website also lists dine-in and delivery options, which may vary by vendor (ReMeal, n.d.-a).
+ReMeal, developed by ReMeal Sdn. Bhd., connects cafés, bakeries, supermarkets and restaurants with customers buying surplus food at reduced prices. Users pay in the app and, depending on the vendor, collect, dine in or use delivery (ReMeal, n.d.-a). In December 2024 it had 16 active stores and 1,800 user sign-ups, and customers collected orders from vendors (Kasinathan, 2024).
 
 ### 2.2 Why We Chose ReMeal
 
-ReMeal is a real app that is available to download, and users can investigate its features and policies. It is a small Malaysian platform rather than a global service. Our preliminary searches found press coverage and ReMeal’s own pages, but no academic studies of the app.
+ReMeal is real, downloadable and small: our preliminary searches found press coverage and ReMeal’s own pages, but no academic studies of it. It has ethically relevant features. Its developer-provided App Store privacy label lists location and purchase history among the data it may collect, it handles payments and refunds, and customers rely on vendor listings to know what they are buying.
 
-ReMeal also has ethically relevant features. Its App Store privacy information, which is provided by the developer, lists data such as location and purchase history as information the app may collect. The app handles payments and refunds, and users rely on vendor listings to understand what food they are buying.
-
-We chose ReMeal because it aims to reduce food waste and make food more affordable. This raised a question we found interesting: can a well-intentioned app still treat users unfairly through the way it is designed? Surplus food also differs from ordinary food delivery. What is available depends on what vendors have left, so customers rely heavily on listings to know what they are buying. Responsibility is shared between ReMeal and independent vendors, which may make it unclear who answers for a refund, a misleading description or a missing allergen warning. The food-app research we found mainly concerns delivery platforms (e.g. Al Rezan et al., 2025), so a small surplus-food app lets us test whether their known problems appear in a different business model.
+Its good aims raised our question: can a well-intentioned app still treat users unfairly? Surplus food also makes it a new case. Stock depends on what vendors have left, so listings carry more weight. Responsibility is also split between ReMeal and independent vendors. The food-app research we found mainly concerns delivery platforms (e.g. Al Rezan et al., 2025), so ReMeal lets us test whether known problems carry over to a different model.
 
 ## 3. Investigation Method
 
 ### 3.1 Investigation Plan
 
-Each issue has one owner and uses at least one first-hand method alongside reading the policies:
+Each issue has one owner:
 
 | Issue | Methods |
 |---|---|
-| Privacy and data | Privacy Notice and Terms; Android permission audit; app-store data-safety labels |
-| Refunds and cancellations | Terms on order acceptance, cancellation and refunds; walkthrough of the order flow up to payment |
-| Food descriptions and photos | Structured review of a sample of listings against a fixed checklist (photo, contents, quantity, price, collection time, vendor) |
-| Allergens and food safety | Terms on allergens; the same listing sample checked for ingredient and allergen details |
+| Privacy and data | Privacy Notice and Terms; Android app walkthrough of permission prompts; app-store privacy labels |
+| Refunds and cancellations | Terms and ReMeal’s seller guides on acceptance, cancellation and refunds |
+| Food descriptions and photos | Four listings from two stores, each checked for contents, ingredients, price, availability, collection rules and photos |
+| Allergens and food safety | Terms on allergens; the same listings checked for allergen details |
 
-Across all issues, we check the walkthrough for dark patterns and code public app-store reviews by theme. We follow three evidence rules. First, every screenshot is dated and numbered in the Appendix. Second, we treat developer-provided disclosures as claims, not verified facts. Third, we do not call a listing inaccurate unless we can verify it.
+We date and number every screenshot in the Appendix, treat developer disclosures as claims rather than facts, and do not call a listing inaccurate unless we can verify it.
 
-### 3.2 How We Examined the App and Its Policies
+### 3.2 Evidence and Limitations
 
-For the privacy review, we read ReMeal’s Privacy Notice and Terms and checked the privacy information on the app-store listings. On 2 November 2026, we walked through the Android app’s sign-in screen, location setup, location permission prompt, and notification permission prompt. We saved screenshots of the app screens and relevant policy sections for the Appendix (Figures A1–A17).
-
-
-### 3.3 Evidence Collected and Limitations
-
-Our app and policy screenshots show what was displayed on 2 November 2026; the App Store summary was captured on 3 November. App-store privacy information is supplied by the developer, so it is not an independent technical audit. We did not inspect network traffic, ReMeal’s servers, or how vendors and other service providers handle data.
-
-For location, we followed one sequence: choosing “Set From Map” brought up the Android location prompt; backing out without choosing “Allow” or “Don’t allow” led to a screen with “Use Default Location”; tapping that opened the home screen. We did not explicitly deny location access, test whether the banner returns on later launches, establish how the default location was selected, or test whether browsing and ordering work from it. A separate notification-permission prompt appeared after the home screen; we did not assess its effects.
+Our screenshots (Appendix, Figs. A1–A17) show what the app and policies displayed on the dates we captured them. We captured the listings on 1 September 2026, the privacy walkthrough on 2 November and the App Store summary on 3 November. App-store privacy labels are supplied by the developer, not independently audited. We did not inspect network traffic, ReMeal’s servers, or how vendors and service providers handle data. Our location test followed one path. We did not explicitly deny access, test later launches, establish how the default location is chosen, or assess the separate notification prompt.
 
 ## 4. Related Literature
 
@@ -84,18 +75,16 @@ See [Section 6](ethical-analysis.md) for the Code principles, ethical theories a
 
 ## 7. Conclusion
 
-ReMeal is a small, real and little-studied app whose good aims make its ethical issues worth examining. Our first-hand evidence includes policy, app walkthrough and selected listing reviews. Users can reach the home screen without granting location access, but the Terms and the app explain location in different ways, and the Privacy Notice allows wide sharing. We have not found evidence of misuse. Part 2 will test whether ReMeal’s design gives users the information and control they need.
+Our evidence so far raises four concerns, none yet proof of wrongdoing. The Terms and the app explain location differently, and the Privacy Notice allows wide sharing. Refunds end once a vendor accepts an order, and we have not yet checked how clearly the app shows this. Listings vary in detail, and allergen information is inconsistent, with responsibility left to vendors. Part 2 will test whether ReMeal gives users the information and control they need.
 
 ## 8. Plan for Part 2
 
-1. **Close the gaps in our evidence.** Test whether guest users can order. Explicitly deny location access and check whether browsing and checkout still work. Repeat the listing review on different days and at different times.
-2. **Extend our methods.** Code a larger sample of app-store reviews for complaints about refunds, listings and allergens. Ask ReMeal directly how data is shared and how refund disputes are handled.
-3. **Compare against the law.** Compare ReMeal’s policies with Malaysia’s Personal Data Protection Act 2010 (as amended) and the relevant consumer-protection and food-labelling rules.
-4. **Complete the ethical analysis.** Apply both theories to every issue and test where the SE Code is insufficient.
-5. **Recommend changes.** Propose practical recommendations for ReMeal’s developers.
-6. **Respond to feedback** from Part 1.
+1. **Close evidence gaps:** test guest ordering, and browsing and checkout with location denied; check how the app shows vendor acceptance and refund rules; review more listings on different days.
+2. **Extend methods:** code app-store reviews by theme, and ask ReMeal how data is shared and refund disputes handled.
+3. **Compare with Malaysian law:** the Personal Data Protection Act 2010 (as amended), consumer-protection rules and food-labelling rules.
+4. **Complete the analysis:** apply both theories to every issue, respond to Part 1 feedback, and recommend changes to ReMeal’s developers.
 
-We will also avoid harming vendors through our own testing. We will not place orders and then cancel them only to observe the refund process, because this could cost vendors food or sales.
+We will not place and cancel orders only to test refunds, as this could cost vendors food or sales.
 
 ## Appendix
 

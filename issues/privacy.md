@@ -8,7 +8,7 @@ Privacy studies show limits to notice-and-consent. Ebrahimi et al. (2021) mapped
 
 ## 5.1 Privacy and Personal Data
 
-ReMeal says it may collect contact, location, transaction, app, device and message data; share orders with vendors, contact details for marketing/chat, and data with service providers; and transfer data overseas (ReMeal, 2024a, §§ 1, 3–5; Appendix, Figs. A6–A9). Its notice also treats provision of personal data as agreement to processing (§ 1; Fig. A11).
+ReMeal says it may collect contact, location, transaction, app, device and message data; share orders with vendors, contact details for marketing/chat, and data with service providers; and transfer data overseas (ReMeal, 2024a, §§ 1, 3–5; Appendix, Figs. A6–A9). Its notice also treats provision of personal data as agreement to the notice (introduction; Fig. A11).
 
 Sign-in offers guest access but links account creation with agreement to the Terms and Privacy Policy; no separate consent control is visible (Fig. A1). The Terms require an account (§ 2.1), treat platform use as consent to processing (§ 1.0), and require deletion requests by email (§ 2.2; Figs. A4–A5). The account form and guest ordering were not tested.
 
