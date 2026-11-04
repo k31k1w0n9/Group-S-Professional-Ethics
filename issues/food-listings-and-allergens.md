@@ -29,8 +29,8 @@ All four listings show discounts and remaining stock; store backgrounds display 
 
 ## 5.4 Allergen and Food Safety Information
 
-The Terms disclaim a duty to provide ingredients or allergens and direct customers to vendors (§ 5.3; A10). They also disclaim completeness of vendor information (ReMeal, 2024b, § 9.3; A14).
+The Terms disclaim a duty to provide ingredients or allergens and direct customers to vendors (§ 5.3; Fig. A10). They also disclaim completeness of vendor information (ReMeal, 2024b, § 9.3; Fig. A14).
 
-Neither Dorsett listing states allergens. Krem states dairy, but its waffle ingredients and other allergens remain unspecified (A21–A24). Absence of a warning does not establish an allergen’s presence. Asking vendors still depends on staff knowledge and safe handling, including prevention of cross-contact (Tan et al., 2023).
+Neither Dorsett listing states allergens. Krem states dairy, but its waffle ingredients and other allergens remain unspecified (Figs. A21–A24). Outside this sample, Sunset Terrace lists possible allergen traces (Fig. A17). Absence of a warning does not establish an allergen’s presence. Asking vendors still depends on staff knowledge and safe handling, including prevention of cross-contact (Tan et al., 2023).
 
 Clause 1.03 connects safe software to allergen-information fields and warnings; 1.04 supports reporting reasonably identified dangers associated with software or documentation. These duties justify investigating disclosure gaps, not asserting an injury occurred. Four listings cannot represent the platform; other screens and actual food handling were not assessed.
