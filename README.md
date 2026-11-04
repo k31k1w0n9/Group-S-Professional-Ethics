@@ -49,7 +49,7 @@ We chose it because a beneficial purpose does not settle whether users are treat
 
 ### 3.2 Evidence and Limitations
 
-The screenshots were captured during 1–3 November 2026. The Android walkthrough was captured on 2 November; the App Store summary and iOS checkout on 3 November. The four listing screenshots fall within this period; their exact day remains unconfirmed (Appendix, Figs. A1–A24).
+The screenshots were captured during 1–3 November 2026. The Android walkthrough was captured on 2 November; the App Store summary and iOS checkout on 3 November. The four listing screenshots were captured within this period (Appendix, Figs. A1–A24).
 
 We distinguish developer disclosures from verified behaviour. We did not inspect backend systems, purchase food, test actual refunds, open the account-creation form or explicitly deny location permission. Reaching the home screen through default location does not establish that ordering works. These limits guide Part 2.
 

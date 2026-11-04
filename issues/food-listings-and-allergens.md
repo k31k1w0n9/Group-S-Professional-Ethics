@@ -12,7 +12,7 @@ For descriptions, Hou et al. (2017) found pictures paired with common descriptiv
 
 ## 5.3 Food Descriptions and Photos
 
-We reviewed four listings from Dorsett Hartamas Kuala Lumpur and Krem Tarik, Kota Damansara. The screenshots were captured during 1–3 November 2026; their exact day remains unconfirmed (Figs. A21–A24).
+We reviewed four listings from Dorsett Hartamas Kuala Lumpur and Krem Tarik, Kota Damansara. The screenshots were captured during 1–3 November 2026 (Figs. A21–A24).
 
 **Table 1. Observed listing details**
 

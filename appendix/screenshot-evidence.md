@@ -15,7 +15,7 @@ Use the index to find a figure, then expand **View screenshot** to see a centred
 | Delivery cart and checkout | [A18](#figure-a18-remeal-delivery-cart)–[A20](#figure-a20-delivery-checkout-lower-section) | Prices, replacement options and visible warnings |
 | Four sampled listings | [A21](#figure-a21-dorsett-40-off-buffet-breakfast-available-daily-listing)–[A24](#figure-a24-krem-waffle--eternal-series-listing) | Table 1 and food/allergen findings |
 
-**Capture dates:** A1–A15 and A17: 2 November 2026, as recorded by the group. A16 and A18–A20: 3 November 2026. A21–A24: 1–3 November 2026, the range provided by the group; their exact capture day remains unconfirmed. These images record displayed information, not independently verified vendor claims or backend behaviour.
+**Capture dates:** A1–A15 and A17: 2 November 2026, as recorded by the group. A16 and A18–A20: 3 November 2026. A21–A24: 1–3 November 2026, as recorded by the group. These images record displayed information, not independently verified vendor claims or backend behaviour.
 
 ### Figure A1: Sign-in and account-consent wording
 
