@@ -107,6 +107,7 @@ Test account and location choices, guest ordering, payment-stage disclosures and
 - ReMeal. (n.d.-b). *ReMeal – Rescue Surplus Food* [Google Play listing]. https://play.google.com/store/apps/details?id=app.remeal.user
 - ReMeal. (n.d.-c). *Making your first sale*. https://remeal.app/guides/making-your-first-sale
 - ReMeal. (n.d.-d). *Refunds and payouts*. https://remeal.app/guides/refunds-and-payouts
+- ReMeal. (n.d.-e). *Stores* [Web shop store and listing pages]. Retrieved 12 November 2026, from https://remeal.app/shop/stores
 - ReMeal. (2024a). *Privacy Notice*. Last updated 9 June 2024. https://remeal.app/privacy-policy
 - ReMeal. (2024b). *Terms and Conditions*. Last updated 21 May 2024. https://remeal.app/terms-and-conditions
 - Siali, F., Abdu Shakur, M. B. M., & Mohd Shukri, M. H. (2024). Consumer rights & customer loyalty of online food delivery services among consumers in Sarawak. *International Journal of Business and Society, 25*(Special Issue), 39–53. https://doi.org/10.33736/ijbs.8195.2024
