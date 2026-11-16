@@ -10,14 +10,41 @@ Part 1 left four privacy questions untested (README § 3.2). Each test below use
 
 | # | Question | Steps | What to record | Status |
 |---|---|---|---|---|
-| T1 | Can a guest place an order? | Continue as guest → open a listing → add to cart → go to checkout. Stop before payment. | The exact screen where the app asks for sign-in, if it does, and what it asks for | Not started |
-| T2 | Does the app work with location denied? | Clear app data → choose “Use Current Location” → tap “Don’t allow” on the Android prompt → try to browse and add to cart. Repeat with “Set From Map”. | Whether the app blocks, repeats the prompt, or falls back to the default location; whether a manual area or address can be entered | Not started |
-| T3 | What consent options does the sign-up form offer? | Open the account-creation form → note every field and whether it is required → look for tick boxes, marketing opt-ins and links to the policies. | Required and optional fields; any consent control and whether it is pre-ticked; whether sign-up can finish without accepting marketing | Not started |
-| T4 | Can choices be changed later? | In the account settings, look for marketing or notification preferences and a delete-account option. | Which controls exist in the app, and which need an email to ReMeal | Not started |
+| T1 | Can a guest place an order? | Continue as guest → open a listing → add to cart → go to checkout. Stop before payment. | The exact screen where the app asks for sign-in, if it does, and what it asks for | Done on web shop and app (1a, 1b) |
+| T2 | Does the app work with location denied? | Clear app data → choose “Use Current Location” → tap “Don’t allow” on the Android prompt → try to browse and add to cart. Repeat with “Set From Map”. | Whether the app blocks, repeats the prompt, or falls back to the default location; whether a manual area or address can be entered | Done on web shop and app (1a, 1b) |
+| T3 | What consent options does the sign-up form offer? | Open the account-creation form → note every field and whether it is required → look for tick boxes, marketing opt-ins and links to the policies. | Required and optional fields; any consent control and whether it is pre-ticked; whether sign-up can finish without accepting marketing | Done on web shop and app (1a, 1b) |
+| T4 | Can choices be changed later? | In the account settings, look for marketing or notification preferences and a delete-account option. | Which controls exist in the app, and which need an email to ReMeal | Done in app, as guest and signed in (1b) |
 
 T4 is new. The Privacy Notice says withdrawal and deletion requests go by email, and the Malay version mentions app settings for marketing preferences, so the app itself needs checking.
 
 We will not submit real identity documents or payment card details, and we will not place an order only to test privacy behaviour.
+
+## 1a. Web shop results (15 November 2026)
+
+ReMeal also runs a public web shop at https://remeal.app/shop/stores. The tests below were run there in a desktop browser with no account and with the browser's location permission already denied. They do not replace the Android tests above, because the web shop and the app may behave differently. Screenshots still need to be captured for the appendix.
+
+| Test | What happened on the web shop |
+|---|---|
+| T1 Guest ordering | A guest can browse stores, listings, prices and collection times. Pressing “Add to cart” redirects to the log-in page, and the Cart and Orders pages also redirect to log-in. A guest cannot build a cart or reach checkout. |
+| T2 Location denied | With location permission denied, the shop still loaded. It showed “Kuala Lumpur” as the location and listed stores with distances. No location prompt or blocking message appeared. Pressing the location selector redirects to log-in (saved addresses), so a guest cannot change the default area. |
+| T3 Sign-up form | The form asks for first name (required), last name, email (required), password (required) and an optional referral code, or sign-up with Google or Apple. It has no tick box, no marketing opt-in and no consent wording. The Terms and Privacy Policy are linked only in the page footer. No phone number is requested, although the Terms list a mobile number for registration (§ 2.1). The form was viewed only; no account was created. |
+| T4 Settings | Not tested. It needs an account. |
+| Cookies (new) | Before any log-in or consent, the shop set Google Analytics cookies (`_ga`) and Stripe cookies (`__stripe_mid`, `__stripe_sid`). No cookie banner or cookie choice was shown. The Privacy Notice covers cookies in § 6. |
+
+## 1b. Android app results (16 November 2026)
+
+Run on ReMeal 1.1.19 from Google Play, on an Android Studio emulator (Pixel 7a profile, Android 17), first as a guest with no ReMeal account, then signed in to a test account for T4 only. Screenshots are in `appendix/screenshots/part2-privacy/` (e01–e19 and e21–e24). An emulator is not a physical phone, and nothing was purchased.
+
+| Test | What happened in the app | Screenshots |
+|---|---|---|
+| T1 Guest ordering | “Continue as Guest” opened the app. A guest could open a listing, add it to the cart and view the cart with a subtotal. “Proceed to Checkout” showed “Sorry! You are not logged in” with a “Login to Continue” button. A guest can build a cart but cannot order. | e01, e07–e10 |
+| T2 Location denied | “Use Current Location” triggered Android’s prompt, with “Precise” pre-selected. After “Don’t allow”, the app asked for notification permission straight away. After that was also declined, the home screen opened at a default address in Kuala Lumpur City Centre and showed listings with distances. Android confirmed both permissions as not granted. The location selector then showed “Enable location access for a greater experience”, “Use Default Location” and “Set From Map”; the map let a guest pick any address without device location. A banner, “Enable notifications for best experience”, stayed on the home screen. | e02–e06, e18–e19 |
+| T3 Sign-up form | Fields: first name, last name, email, password and an optional referral code, or “Sign up with Google”. There is no tick box and no marketing choice. The only consent wording is a line below the form: “By creating an account, you agree to our Terms & Conditions and Privacy Policy.” No phone number is requested. The form was viewed only; no account was created. | e11–e13 |
+| T4 Settings (guest) | As a guest, the Account tab lists Profile, Saved Addresses, Notification Settings, Contact Support, Terms & Conditions and Privacy Policy. Notification Settings showed “You are not logged in”. | e15–e17 |
+| T4 Settings (signed in) | Notification Settings has two switches, “New Inventory” and “Marketing Notifications”. Both were switched on when first opened. Profile shows name, email and phone (phone was empty) and has a “Delete Account” button, which was not pressed. Nothing was changed. The tester’s name and email are blacked out in e21, e22 and e24. | e21–e24 |
+| Declared permissions | Location (fine and coarse), notifications, advertising ID and ad attribution, basic phone state, NFC, network access. | Read from the installed package |
+
+The app and the web shop differ on guests: the app lets a guest fill a cart, while the web shop sends a guest to log-in at “Add to cart”.
 
 ## 2. Document findings so far
 
