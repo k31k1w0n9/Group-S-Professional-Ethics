@@ -64,14 +64,14 @@ Read on 12 November 2026 from the live Privacy Notice (last updated 9 June 2024)
 
 ## 3. Comparison with the PDPA
 
-The amendment provisions below were checked against Act A1727 and the commencement gazette, P.U. (B) 522. The wording of the principal Act (ss 6, 7, 38 and 40) and of the 2013 Regulations still needs checking against the 2026 reprint before it is quoted in the report.
+The amendment provisions below were checked against Act A1727 and the commencement gazette, P.U. (B) 522. Sections 6, 7, 38, 40 and 43 were checked on 19 November 2026 against the official reprint of Act 709 as at 15 September 2026. The 2013 Regulations have not been checked.
 
 | Provision | Requirement in brief | ReMeal's documents | Our reading |
 |---|---|---|---|
 | s 6, General Principle | Consent to processing; data should be needed for a lawful purpose and not excessive | Consent tied to use of the Platform; wide list of data categories | Open. Depends on T3. |
 | s 7, Notice and Choice | Written notice of purposes, disclosures and how to limit processing, in the national and English languages | Bilingual notice; limiting processing is mostly by email | Language requirement appears met. Choice is weak. |
 | s 38, Withdrawal of consent | A data subject may withdraw consent by written notice | Email to the data protection officer | Appears consistent with the Act, but not easy to use. |
-| s 40, Sensitive personal data | Explicit consent for sensitive data such as health information | Volunteered health data processed on “legitimate interests” | Possible gap. Needs care: we are comparing texts, not giving legal advice. |
+| s 40, Sensitive personal data | Sensitive data such as health information only on listed conditions, mainly explicit consent; establishing, exercising or defending legal rights is also listed | Volunteered health data processed on “legitimate interests” | Possible gap. Needs care: we are comparing texts, not giving legal advice. |
 | s 12A, Data protection officer (in force 1 June 2025) | A data controller appoints a data protection officer and notifies the Commissioner | A data protection officer is mentioned, not named; contact by email | Cannot verify the appointment from outside. |
 | s 12B, Breach notification (in force 1 June 2025) | Notify the Commissioner of a breach, and data subjects where significant harm is likely | Not mentioned in the Notice | The Act does not require the Notice to cover this. Noted only. |
 | s 43A, Data portability (in force 1 June 2025) | A data subject may ask for data to be sent to another controller | A similar right is described in § 8 | Appears covered. |
