@@ -51,12 +51,23 @@ The tension sits inside clause 1.03 itself, which asks for software that is safe
 - **Hardest case:** 15 mystery items carry no statement.
 - **Who is exposed:** the 13 children’s listings show that the people at risk may not be the people placing the order.
 
-## Still To Do
+## Stakeholders Affected (input for Section 2)
 
-1. Screenshot in the app the listings quoted above (the two unclear Sunset Terrace notes, a Gula Cakery mystery bag, a Hogan Bakery item, “Contains diary”) for the Appendix.
-2. Check whether the app has an allergen filter or field, and whether the § 5.3 warning appears at checkout.
-3. Ask one vendor about allergens in a mystery bag through the in-app chat without ordering, and record the reply time and answer.
-4. Lead the slides.
+| Stakeholder | Feature or practice | Effect | Evidence |
+|---|---|---|---|
+| Customers with food allergies (direct) | Free-text allergen notes; the Terms tell customers to ask vendors | Must check with each vendor before ordering, or avoid most listings | 146 of 178 listings with no statement; § 5.3 |
+| Children and others who eat food someone else bought (indirect) | Children’s and mystery listings without allergen information | Exposed to risk without seeing the listing themselves | 13 of 13 children’s listings, 15 of 15 mystery items |
+| Vendors and kitchen staff (business partners, workers) | Vendors write all allergen information; ReMeal disclaims its accuracy | Carry the disclosure burden and answer allergen questions | § 9.3; varied formats; staff knowledge gaps (Tan et al., 2023) |
+| ReMeal and its developers (operator) | Listing form with no structured allergen field | Control how allergen information is collected and shown | Formats vary by vendor; contradictory notes are published |
+| Regulators (indirect) | Food-labelling rules written for packaged food | Unclear oversight of allergen information in app listings | Food Regulations 1985; Soon (2018) |
+
+## Recommendation (input for Section 8)
+
+**Require a choice, not a list.** Every listing should carry one of three structured options: “Contains: …”, “May contain: …”, or “Allergen information not provided — ask the store”. Customers should also see the § 5.3 warning on the listing and at checkout, not only in the Terms. The form should flag notes that name an allergen and also deny it, such as the razor-clam note, for the vendor to correct.
+
+- **Utilitarian grounding.** The third option costs vendors one tap, so it should not deter surplus listings and keeps the waste-reduction benefit. Clear statements reduce the expected harm to customers with allergies.
+- **Kantian grounding.** Even when a vendor provides nothing, customers are told so, rather than having to infer it from silence. That respects their ability to make an informed choice, and it does not depend on whether the overall outcome improves.
+- **Mystery bags.** A store-level “May contain” line covering the allergens a bakery typically uses gives customers honest information when the exact contents are unknown.
 
 ## Appendix Table B1. Allergen Statements by Store (web shop, 12 November 2026)
 
